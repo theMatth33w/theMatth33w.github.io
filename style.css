@@ -1,0 +1,84 @@
+@font-face{font-family: Montserrat-Regular; src: url("./fonts/Montserrat-Regular.ttf");}
+@font-face{font-family: Montserrat-Light; src: url("./fonts/Montserrat-Light.ttf");}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #001427;
+}
+
+.header-content{
+    padding: 10px;
+    text-align: center;
+}
+
+.header-content h1{
+    font-family: Montserrat-Regular;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-content h3{
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-content ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.header-content ul li{
+    display: inline;
+    margin-right: 25px;
+}
+
+.header-content ul li a{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms;
+}
+
+.header-content ul li a:hover{
+    font-size: 28px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .sections{
+    width: 80%;
+    max-width: 545px;
+    margin-top: 10px;
+}
+
+.content .sections h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Montserrat-Regular;
+}
+
+.content .sections h2{
+    margin-bottom: 20px;
+    font-family: Montserrat-Regular;
+}
+
+.content .sections p{
+    text-align: justify;
+    font-family: Montserrat-Regular;
+    margin-bottom: 15px;
+}
