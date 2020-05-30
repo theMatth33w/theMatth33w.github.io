@@ -64,6 +64,7 @@
     width: 80%;
     max-width: 545px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .content .sections h1{
@@ -80,5 +81,10 @@
 .content .sections p{
     text-align: justify;
     font-family: Montserrat-Regular;
+    margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.content .sections a{
+    font-family: Montserrat-Regular;
 }
